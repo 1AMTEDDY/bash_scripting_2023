@@ -4,3 +4,5 @@
 #AUTOMATE EVERYTHING!!!, THAT IS THE VALUE OF SCRIPTING.
 
 echo 'Hello World' #echo is a command that prints to the screen.  It is a built in command in bash.
+echo 'My current working directory is:'
+pwd
