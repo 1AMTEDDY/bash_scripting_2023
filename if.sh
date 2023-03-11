@@ -11,13 +11,13 @@
 #else
 #    echo "Your number is less than 100"
 #fi
-command=htop
-if command  -v $command #a bracket is used to run a test command, -v is used to check if a command is installed or not
+program=htop
+if command  -v $program #a bracket is used to run a test command, -v is used to check if a command is installed or not
 then
-    echo "$command is installed"
+    echo "$program is installed"
 else
-    echo "$command is not installed, installing it...."
-brew install $command #this is a command to install htop
+    echo "$program is not installed, installing it...."
+brew install $program #this is a command to install htop
 fi
 
-$command
+$program
