@@ -8,7 +8,7 @@
 - While Loops
 - Update Script (universal)
 - For Loops
-- Filesystem Locations For Scripts
+- Filesystem Locations For Scripts (Using $PATH /usr/local/bin the shell automatically knows to look for the script inside there, so move your scripts there to just type the name of your script no extensions easily)
 - Data Streams
 - Functions
 - Case statements
