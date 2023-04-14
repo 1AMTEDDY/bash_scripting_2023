@@ -6,4 +6,6 @@
 #crontab -r is a command that allows you to remove your cronjobs.
 #crontab -u is a command that allows you to edit another users cronjobs.
 
+crontab_options="-e"
 
+$(which crontab) $crontab_options
