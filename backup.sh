@@ -28,3 +28,4 @@ rysnc="-avb --backup-dir $2/$date --delete" #remove --dry-run when you are ready
 # we have the -b so that --delete wont delete but move it into the incremental backup directory.
 
 $(which rsync) $rysnc $1 $2/current >> backup_$date.log
+#this is the command that will run the rsync command.  The >> backup_$date.log will append the output of the rsync command to the backup_$date.log file.  This is good to do so you can see what the script did when it ran.
